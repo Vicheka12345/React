@@ -11,8 +11,7 @@ const App = () => {
 
   const skills = [
     { name: "HTML & CSS", level: 80 },
-    { name: "JavaScript", level: 60 },
-    { name: "React", level: 50 },
+    { name: "JavaScript & React Js", level: 60 },
     { name: "Tailwind CSS", level: 45 },
     { name: "Photoshop", level: 70 },
     { name: "Illustrator", level: 65 },
@@ -38,7 +37,7 @@ const App = () => {
 
   return (
     <div
-      style={{ fontFamily: "'Syne', sans-serif" }}
+      style={{ fontFamily: "'Bebas Neue', sans-serif" }}
       className="min-h-screen bg-[#0a0a0a] text-white overflow-x-hidden"
     >
       <style>{`@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap'); * { scroll-behavior: smooth; } .gradient-text { background: linear-gradient(135deg, #f97316, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; } .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; } .card-hover:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(249,115,22,0.15); } .skill-bar { transition: width 1.5s ease; } .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; } .fade-in.visible { opacity: 1; transform: translateY(0); } .nav-link { position: relative; } .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: linear-gradient(135deg, #f97316, #ec4899); transition: width 0.3s ease; } .nav-link:hover::after { width: 100%; } .glow { box-shadow: 0 0 30px rgba(249,115,22,0.3); }`}</style>
@@ -95,7 +94,7 @@ const App = () => {
             style={{ fontFamily: "'DM Sans', sans-serif" }}
             className="text-orange-400 text-sm tracking-widest uppercase mb-4"
           >
-            Hello, I am
+            Hello, I'm
           </p>
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">
             VUN <span className="gradient-text">VICHEKA</span>
@@ -278,26 +277,26 @@ const App = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:your@email.com"
+              href="Leechangker190@gmail.com"
               className="px-8 py-3 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 text-white font-semibold hover:opacity-90 transition glow"
             >
-              📧 Email Me
+               Email Me
             </a>
             <a
-              href="#"
+              href="https://t.me/Vichekazz"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-full border border-white/20 text-white/70 hover:text-white hover:border-white/50 transition"
             >
-              💼 LinkedIn
+               telegram
             </a>
             <a
-              href="#"
+              href="https://github.com/vicheka12345"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-full border border-white/20 text-white/70 hover:text-white hover:border-white/50 transition"
             >
-              🐙 GitHub
+              GitHub
             </a>
           </div>
         </div>
