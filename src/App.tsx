@@ -9,14 +9,6 @@ const App = () => {
     setTimeout(() => setVisible(true), 100);
   }, []);
 
-  const skills = [
-    { name: "HTML & CSS", level: 80 },
-    { name: "JavaScript & React Js", level: 60 },
-    { name: "Tailwind CSS", level: 45 },
-    { name: "Photoshop", level: 70 },
-    { name: "Illustrator", level: 65 },
-    { name: "Word", level: 85 },
-  ];
 
   const projects = [
     {
@@ -33,7 +25,7 @@ const App = () => {
     },
   ];
 
-  const navLinks = ["home", "about", "skills", "projects", "contact"];
+  const navLinks = ["home", "about", "projects", "contact"];
 
   return (
     <div
@@ -103,7 +95,7 @@ const App = () => {
             style={{ fontFamily: "'DM Sans', sans-serif" }}
             className="text-xl md:text-2xl text-white/50 mb-8"
           >
-            Web Developer & Graphic Designer
+          FRONTEND DEVELOPER
           </h2>
           <p
             style={{ fontFamily: "'Rubik', sans-serif" }}
@@ -181,39 +173,6 @@ const App = () => {
         </div>
       </section>
 
-      {/* Skills */}
-      <section id="skills" className="py-24 px-6 bg-white/[0.02]">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-extrabold mb-2">
-            My <span className="gradient-text">Skills</span>
-          </h2>
-          <div className="w-12 h-1 bg-gradient-to-r from-orange-500 to-pink-500 rounded mb-10"></div>
-          <div className="space-y-6">
-            {skills.map((skill) => (
-              <div key={skill.name}>
-                <div className="flex justify-between mb-2">
-                  <span
-                    style={{ fontFamily: "'DM Sans', sans-serif" }}
-                    className="text-white/80 font-medium"
-                  >
-                    {skill.name}
-                  </span>
-                  <span className="text-orange-400 text-sm">
-                    {skill.level}%
-                  </span>
-                </div>
-                <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-                  <div
-                    className="h-full rounded-full bg-gradient-to-r from-orange-500 to-pink-500 skill-bar"
-                    style={{ width: visible ? `${skill.level}%` : "0%" }}
-                  ></div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Projects */}
       <section id="projects" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
@@ -277,7 +236,7 @@ const App = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="Leechangker190@gmail.com"
+              href="vvich242@gmail.com"
               className="px-8 py-3 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 text-white font-semibold hover:opacity-90 transition glow"
             >
                Email Me
